@@ -1,0 +1,32 @@
+#root{
+   --principalFont: 'Rubik', sans-serif;
+
+   /*Colors*/
+   --subtitlesColor: #FF4F6F;
+   --titleColor: #EF9919;
+   --adicionalColor: #34B0BE;
+   --descriptionColor: #ADADAD;
+   --backgroundColor: #E5E5E5;
+   --backgroundColorSections: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--backgroundColor);
+}
+
+#presentation-section{
+    display: flex;
+}
+#profile-pic>img{
+    z-index:2;
+}
+
+#profile-pic>img+img{
+    z-index: 1;
+}
